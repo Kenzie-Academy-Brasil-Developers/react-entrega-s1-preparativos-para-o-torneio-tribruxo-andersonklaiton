@@ -2,7 +2,6 @@ import Characters from "../Characters";
 import "./style.css"
 
 const Inicio = ({setThehouse,charList}) => {
-  console.log(charList)
     return (
       <>
         <div className="Inicio">
