@@ -1,0 +1,40 @@
+.container_all_char{
+    margin-top: 20px;
+}
+.container_char{
+    width: 200px;
+}
+.image_char{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.name_char{
+    font-size: 20px;
+}
+.gryffindor h3{
+    color: green;
+}
+.ravenclaw h3{
+    color: red;
+}
+.slytherin h3{
+    color:blue
+}
+.hufflepuff h3{
+    color: yellow;
+}
+.gryffindor img{
+    border: 1px solid green;
+}
+.ravenclaw img{
+    border: 1px solid red;
+}
+.slytherin img{
+    border: 1px solid blue;
+}
+.hufflepuff img{
+    border: 1px solid yellow;
+}
