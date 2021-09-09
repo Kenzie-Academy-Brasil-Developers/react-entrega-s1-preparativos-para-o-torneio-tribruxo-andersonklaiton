@@ -10,7 +10,7 @@ const [thehouse, setThehouse]=useState(true)
 
 
 useEffect(()=>{
-  fetch("https://hp-api.herokuapp.com/api/characters/students")
+  fetch("http://hp-api.herokuapp.com/api/characters/students")
   .then((response)=> response.json())
   .then((response)=> setCharList(response))
   .catch((err)=> console.log(err))
