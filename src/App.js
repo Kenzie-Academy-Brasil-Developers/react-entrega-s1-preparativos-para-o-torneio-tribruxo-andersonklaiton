@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Inicio from './Inicio/inicio';
-import Students from './Students';
+import Inicio from './components/Inicio/inicio';
+import Students from './components/Students';
 
 function App() {
 
